@@ -8,20 +8,13 @@ Velocron, a global manufacturer of bicycles, has been undergoing financial analy
 The data examined include core financial metrics such as profitability, liquidity, working capital management, capital expenditure, cash flow performance, and debt obligations. By combining insights from the P&L statement, Balance Sheet, and Cash Flow statement, the report offers a holistic view of Velocron' financial operations and strategic positioning.
 
 ---
-An interactive PowerBI dashboard can be downloaded [here](https://github.com/kelvindinhq/reward_program_marketing_analytic/tree/main/dashboard).  
+An interactive PowerBI dashboard can be downloaded [here](https://github.com/kelvindinhq/financial_reporting).  
 
 ## Data Structure and Initial Checks
 The data was extracted from the company ERP in period of 2010 to 2013, in excels files, including 6 tables containing facts and dimension tables about the company financial and one Transaction table to record the company financial activities with a total row count of 110,484 records.  
 ![Data Modeling](./img/data%20diagrams.PNG)
 
-The data then imported to PowerBI. To set up the format of the statements and also to change the furmular of calculation for future uses as needed, the stement table was created in excel to map the account to their proper heading in each statements.
-![Statement](./img/statement.PNG)
-
-Then, to connect data from the Transaction table to the right fiancial account, a bridge file was used with metadata to show range of acount maping to each report section.
-![Account range](./img/account%20range.PNG)
-
-Finally, using Powerquery to expand the maping of account from range to individuals accounts to map with the specific statement.
-![Account expand](./img/expand%20table.PNG)
+The data then imported to PowerBI. To set up the format of the statements and also to change the furmular of calculation for future uses as needed, the stement table was created in excel to map the account to their proper heading in each statements. Then, to connect data from the Transaction table to the right fiancial account, a bridge file was used with metadata to show range of acount maping to each report section.Finally, using Powerquery to expand the maping of account from range to individuals accounts to map with the specific statement.
 
 The end resutls is a connection of data in transactions maing to the exact account in the right statement.
 ![Data diagram](./img/data%20diagram%20bi.PNG)
