@@ -1,7 +1,7 @@
 
 # **Velocron Financial Performance Report**
 
-
+![Dashboard](./img/git_fin_1.gif)
 ## **Project Background:**
 Velocron, a global manufacturer of bicycles, has been undergoing financial analysis through its Profit and Loss (P&L), Balance Sheet, and Cash Flow statements for the fiscal period ending in December 2011. This report aims to provide a comprehensive understanding of the company's financial health, identify areas of strengths and potential concerns, and suggest further analysis to ensure sustainable business growth and optimal resource allocation.
 
